@@ -220,11 +220,10 @@ class _SignupRouteState extends State<SignupRoute> {
                   editUsers.password != null && editUsers.password.isNotEmpty && editUsers !=null){
                     await database.insertUsers(editUsers);
                     
-                    
-            }
-            Navigator.of(context).push(MaterialPageRoute(builder: (context) => ShowUsers(editUsers)));
-                
-              }, child: Text(
+                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => ShowUsers(editUsers)));
+                  }
+                }, 
+              child: Text(
               "Sign up", 
               textAlign: TextAlign.center, 
               style: TextStyle(
