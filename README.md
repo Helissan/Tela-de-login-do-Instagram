@@ -1,6 +1,7 @@
 # meuapp
 
 A new Flutter project.
+
 Base para o layout da tela de log in: https://dribbble.com/shots/6564552-Instagram-Dark-Visuals/attachments
 Base para o layout da tela de sign up: http://www.socialwebtips.com/create-and-sign-up-for-instagram-account/
 
